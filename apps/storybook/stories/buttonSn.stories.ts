@@ -2,7 +2,7 @@ import { Meta, StoryObj } from '@storybook/react'
 import { Button } from '@creight/ui/button'
 
 const meta = {
-  title: 'Shadcn/button',
+  title: 'Shadcn/Button',
   component: Button,
   tags: ['autodocs'],
   argTypes: {
