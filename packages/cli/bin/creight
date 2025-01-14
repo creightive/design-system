@@ -17,5 +17,3 @@ if (wantsCompiled || !devMode) {
   // run the CLI with the current process arguments
   require(`${__dirname}/../src/cli`).run(process.argv)
 }
-
-
