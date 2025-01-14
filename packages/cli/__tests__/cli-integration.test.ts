@@ -1,6 +1,4 @@
-
-  import { system, filesystem } from 'gluegun'
-
+import { system, filesystem } from 'gluegun'
 
 const src = filesystem.path(__dirname, '..')
 
@@ -18,10 +16,9 @@ test('outputs help', async () => {
 
 test('generates file', async () => {
   const output = await cli('generate foo')
-  
-    expect(output).toContain('Generated file at models/foo-model.ts')
-    const foomodel = filesystem.read('models/foo-model.ts')
-  
+
+  expect(output).toContain('Generated file at models/foo-model.ts')
+  const foomodel = filesystem.read('models/foo-model.ts')
 
   expect(foomodel).toContain(`module.exports = {`)
   expect(foomodel).toContain(`name: 'foo'`)

@@ -1,4 +1,3 @@
-export const noop = () => {};
+export const noop = () => {}
 
-export const identity = <T>(value: T) => value;
-
+export const identity = <T>(value: T) => value

@@ -2,7 +2,6 @@
 
 This package is a wrapper around the tailwindcss configuration for the creight design system. It is used to provide a consistent tailwindcss configuration for the creight design system.
 
-
 ## Installation
 
 ```bash
@@ -13,16 +12,18 @@ pnpm install @creight/tailwindcss
 
 ```ts
 // tailwind.config.ts
-import { shadcn } from '@creight/tailwindcss';
+import { shadcn } from '@creight/tailwindcss'
 
 export default {
   presets: [shadcn],
   content: [
     // Add your content here
   ],
-};
+}
 ```
+
 ## Note
+
 This current implementation requires the user to define the css variables.
 
 ## TODO

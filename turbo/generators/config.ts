@@ -1,4 +1,4 @@
-import type { PlopTypes } from '@turbo/gen';
+import type { PlopTypes } from '@turbo/gen'
 
 export default function generator(plop: PlopTypes.NodePlopAPI): void {
   plop.setGenerator('init', {
@@ -7,20 +7,19 @@ export default function generator(plop: PlopTypes.NodePlopAPI): void {
       {
         type: 'input',
         name: 'name',
-        message:
-          'What is the name of the package? (You can skip the `@repo/` prefix)',
+        message: 'What is the name of the package? (You can skip the `@repo/` prefix)',
       },
     ],
     actions: [
-      (answers) => {
+      answers => {
         if (
           'name' in answers &&
           typeof answers.name === 'string' &&
           answers.name.startsWith('@repo/')
         ) {
-          answers.name = answers.name.replace('@repo/', '');
+          answers.name = answers.name.replace('@repo/', '')
         }
-        return 'Config sanitized';
+        return 'Config sanitized'
       },
       {
         type: 'add',
@@ -33,5 +32,5 @@ export default function generator(plop: PlopTypes.NodePlopAPI): void {
         templateFile: 'templates/tsconfig.json.hbs',
       },
     ],
-  });
+  })
 }
