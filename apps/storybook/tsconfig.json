@@ -1,5 +1,5 @@
 {
   "extends": "@repo/typescript-config/react-app.json",
-  "include": ["."],
+  "include": [".", ".storybook/examples/calendar.stories.tsx", ".storybook/examples/card-with-form.stories.ts", ".storybook/examples/date-picker-with-form.stories.ts", ".storybook/examples/dropdown-menu-checkbox-menu.stories.ts", ".storybook/examples/skeleton.stories.tsx", ".storybook/examples/toggle-group.stories.tsx", ".storybook/examples/toggle.stories.tsx", ".storybook/examples/tooltip.stories.tsx", ".storybook/examples/alert.stories.tsx", ".storybook/examples"],
   "exclude": ["dist", "build", "node_modules"]
 }
