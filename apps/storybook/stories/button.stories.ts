@@ -1,8 +1,9 @@
 import { Meta, StoryObj } from '@storybook/react'
 import { Button } from '@creight/ui/button'
+import { fn } from '@storybook/test'
 
 const meta = {
-  title: 'Shadcn/Button',
+  title: 'UI/Button',
   component: Button,
   tags: ['autodocs'],
   argTypes: {
@@ -18,6 +19,8 @@ const meta = {
   parameters: {
     layout: 'centered',
   },
+  // 👇 Use `fn` to spy on the onClick arg, which will appear in the actions panel once invoked
+  args: { onClick: fn() },
 } satisfies Meta<typeof Button>
 
 export default meta
