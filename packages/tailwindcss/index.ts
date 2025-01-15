@@ -90,3 +90,18 @@ export const shadcn: Omit<Config, 'content'> = {
   },
   plugins: [animate],
 }
+
+export interface ShadcnTokens {
+  border: string
+  input: string
+  ring: string
+  background: string
+  foreground: string
+}
+
+export const defineShadcn = (tokens: ShadcnTokens) => {
+  return {
+    ...shadcn,
+    ...tokens,
+  }
+}
