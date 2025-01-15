@@ -146,7 +146,62 @@
       "import": "./dist/hooks/use-toast.mjs",
       "require": "./dist/hooks/use-toast.js"
     },
-    "./themes/originui.css": "./dist/themes/originui.css"
+    "./themes/originui.css": "./dist/themes/originui.css",
+    "aspect-ratio": {
+      "types": "./src/components/aspect-ratio.tsx",
+      "import": "./dist/aspect-ratio.mjs",
+      "require": "./dist/aspect-ratio.js"
+    },
+    "collapsible": {
+      "types": "./src/components/collapsible.tsx",
+      "import": "./dist/collapsible.mjs",
+      "require": "./dist/collapsible.js"
+    },
+    "context-menu": {
+      "types": "./src/components/context-menu.tsx",
+      "import": "./dist/context-menu.mjs",
+      "require": "./dist/context-menu.js"
+    },
+    "hover-card": {
+      "types": "./src/components/hover-card.tsx",
+      "import": "./dist/hover-card.mjs",
+      "require": "./dist/hover-card.js"
+    },
+    "menubar": {
+      "types": "./src/components/menubar.tsx",
+      "import": "./dist/menubar.mjs",
+      "require": "./dist/menubar.js"
+    },
+    "navigation-menu": {
+      "types": "./src/components/navigation-menu.tsx",
+      "import": "./dist/navigation-menu.mjs",
+      "require": "./dist/navigation-menu.js"
+    },
+    "progress": {
+      "types": "./src/components/progress.tsx",
+      "import": "./dist/progress.mjs",
+      "require": "./dist/progress.js"
+    },
+    "radio-group": {
+      "types": "./src/components/radio-group.tsx",
+      "import": "./dist/radio-group.mjs",
+      "require": "./dist/radio-group.js"
+    },
+    "scroll-area": {
+      "types": "./src/components/scroll-area.tsx",
+      "import": "./dist/scroll-area.mjs",
+      "require": "./dist/scroll-area.js"
+    },
+    "slider": {
+      "types": "./src/components/slider.tsx",
+      "import": "./dist/slider.mjs",
+      "require": "./dist/slider.js"
+    },
+    "command": {
+      "types": "./src/components/command.tsx",
+      "import": "./dist/command.mjs",
+      "require": "./dist/command.js"
+    }
   },
   "scripts": {
     "build": "tsup",
