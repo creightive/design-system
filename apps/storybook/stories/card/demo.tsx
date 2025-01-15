@@ -1,7 +1,7 @@
 import { BellRing, Check } from 'lucide-react'
 
-import { cn } from '@/lib/variants'
-import { Button } from '@/components/button'
+import { cx } from '@creight/ui/lib/variants'
+import { Button } from '@creight/ui/button'
 import {
   Card,
   CardContent,
@@ -9,8 +9,8 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from '@/components/card'
-import { Switch } from '@/components/switch'
+} from '@creight/ui/card'
+import { Switch } from '@creight/ui/switch'
 
 const notifications = [
   {
@@ -29,9 +29,9 @@ const notifications = [
 
 type CardProps = React.ComponentProps<typeof Card>
 
-export function CardDemoNotification({ className, ...props }: CardProps) {
+export function CardNotificationDemo({ className, ...props }: CardProps) {
   return (
-    <Card className={cn('w-[380px]', className)} {...props}>
+    <Card className={cx('w-[380px]', className)} {...props}>
       <CardHeader>
         <CardTitle>Notifications</CardTitle>
         <CardDescription>You have 3 unread messages.</CardDescription>

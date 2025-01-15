@@ -7,7 +7,7 @@ import { cn } from '../@/lib/variants'
 import { Button } from '../button'
 import { Calendar } from '../calendar'
 import { Popover, PopoverContent, PopoverTrigger } from '../popover'
-import useDate from './useDate'
+import useDate from '../../stories/useDate'
 
 export function DatePickerDemo() {
     const { date, setDate } = useDate()

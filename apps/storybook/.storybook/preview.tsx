@@ -7,6 +7,7 @@ import type { Preview } from '@storybook/react';
 import { darkUIStorybook, lightUIStorybook, commonTheme } from "./themes-storybook-ui"
 
 import '@creight/ui/themes/originui.css';
+import './tailwind.storybook.css'
 
 const preview: Preview = {
   parameters: {

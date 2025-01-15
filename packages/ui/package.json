@@ -21,21 +21,6 @@
       "import": "./dist/accordion.mjs",
       "require": "./dist/accordion.js"
     },
-    "./button": {
-      "types": "./src/components/button.tsx",
-      "import": "./dist/button.mjs",
-      "require": "./dist/button.js"
-    },
-    "./toast": {
-      "types": "./src/components/toast.tsx",
-      "import": "./dist/toast.mjs",
-      "require": "./dist/toast.js"
-    },
-    "./tooltip": {
-      "types": "./src/components/tooltip.tsx",
-      "import": "./dist/tooltip.mjs",
-      "require": "./dist/tooltip.js"
-    },
     "./avatar": {
       "types": "./src/components/avatar.tsx",
       "import": "./dist/avatar.mjs",
@@ -135,6 +120,21 @@
       "types": "./src/components/toggle-group.tsx",
       "import": "./dist/toggle-group.mjs",
       "require": "./dist/toggle-group.js"
+    },
+    "./button": {
+      "types": "./src/components/button.tsx",
+      "import": "./dist/button.mjs",
+      "require": "./dist/button.js"
+    },
+    "./toast": {
+      "types": "./src/components/toast.tsx",
+      "import": "./dist/toast.mjs",
+      "require": "./dist/toast.js"
+    },
+    "./tooltip": {
+      "types": "./src/components/tooltip.tsx",
+      "import": "./dist/tooltip.mjs",
+      "require": "./dist/tooltip.js"
     },
     "./lib/variants": {
       "types": "./src/lib/variants.ts",
