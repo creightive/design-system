@@ -23,7 +23,7 @@ const meta = {
           <AlertDialogTrigger data-testid="trigger">
             Open
           </AlertDialogTrigger>
-          <AlertDialogContent>
+          <AlertDialogContent portal={false}>
             <AlertDialogHeader>
               <AlertDialogTitle data-testid="title">
                 Are you absolutely sure?
