@@ -42,6 +42,7 @@ export default defineConfig(options => ({
     'lib/variants': 'src/lib/variants.ts',
     'hooks/use-toast': 'src/hooks/use-toast.ts',
     'themes/originui': 'src/themes/originui/index.css',
+    'themes/ada': 'src/themes/ada/index.css',
   },
   format: ['cjs', 'esm'],
   dts: true,

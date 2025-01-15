@@ -1,11 +1,11 @@
 export const darkUIStorybook = {
-  colorPrimary: 'hsl(60 5.6% 92.9%)',
-  colorSecondary: 'hsl(45 3.5% 22.4%)',
+  colorPrimary: 'hsl(210 40% 98%)',
+  colorSecondary: 'hsl(217.2 32.6% 17.5%)',
 
   // UI
-  appBg: 'hsl(60 3% 6.5%)',
-  appContentBg: 'hsl(60 3% 6.5%)',
-  appBorderColor: 'hsl(45 3.5% 22.4%)',
+  appBg: 'hsl(222.2 84% 4.9%)',
+  appContentBg: 'hsl(222.2 84% 4.9%)',
+  appBorderColor: 'hsl(217.2 32.6% 17.5%)',
   appBorderRadius: '.4rem',
 
   // Typography
@@ -13,51 +13,22 @@ export const darkUIStorybook = {
   // fontCode: '',
 
   // Text colors
-  textColor: 'hsl(60 5.6% 92.9%)',
-  textInverseColor: 'hsl(45 5.1% 69.4%)',
+  textColor: 'hsl(210 40% 98%)',
+  textInverseColor: 'hsl(217.2 32.6% 17.5%)',
 
   // Toolbar default and active colors
-  barTextColor: 'hsl(60 5.6% 92.9%)',
-  barSelectedColor: 'hsl(60 5.6% 92.9%)',
-  barBg: 'hsl(60 3% 6.5%)',
+  barTextColor: 'hsl(210 40% 98%)',
+  barSelectedColor: 'hsl(210 40% 98%)',
+  barBg: 'hsl(222.2 84% 4.9%)',
 
   // Form colo,
-  inputBg: 'hsl(45 3.5% 22.4%)',
-  inputBorder: 'hsl(45 3.5% 22.4%)',
-  inputTextColor: 'hsl(60 5.6% 92.9%)',
+  inputBg: 'hsl(217.2 32.6% 17.5%)',
+  inputBorder: 'hsl(217.2 32.6% 17.5%)',
+  inputTextColor: 'hsl(210 40% 98%)',
   inputBorderRadius: '0.4rem',
 }
 
-export const lightUIStorybook = {
-  colorPrimary: 'hsl(48 8.2% 12%)',
-
-  colorSecondary: 'hsl(45 5.1% 84.7%)',
-
-  // UI
-  appBg: 'hsl(60 7.7% 97.5%)',
-  appContentBg: 'hsl(60 7.7% 97.5%)',
-  appBorderColor: 'hsl(45 5.1% 84.7%)',
-  appBorderRadius: '.4rem',
-
-  // Typography
-  // fontBase: "",
-  // fontCode: '',
-
-  // Text colors
-  textColor: 'hsl(48 8.2% 12%)',
-  textInverseColor: 'hsl(45 5.1% 84.7%)',
-
-  // Toolbar default and active colors
-  barTextColor: 'hsl(48 8.2% 12%)',
-  barSelectedColor: 'hsl(48 8.2% 12%)',
-  barBg: 'hsl(60 7.7% 97.5%)',
-
-  // Form colo,
-  inputBg: 'hsl(45 5.1% 84.7%)',
-  inputBorder: 'hsl(45 5.1% 84.7%)',
-  inputTextColor: 'hsl(48 8.2% 12%)',
-  inputBorderRadius: '0.4rem',
-}
+export const lightUIStorybook = {}
 
 export const commonTheme = {
   brandTitle: 'Shadcn-ui',
