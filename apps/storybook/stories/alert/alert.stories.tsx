@@ -7,7 +7,7 @@ import { Alert, AlertDescription, AlertTitle, alertVariants } from '@creight/ui/
 type TypeCustomAlertProps = {} & VariantProps<typeof alertVariants>
 
 const meta = {
-  title: 'Shadcn/alert',
+  title: 'UI/Alert',
   args: {
     variant: 'default',
   },

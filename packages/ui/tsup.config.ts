@@ -2,6 +2,8 @@ import { defineConfig } from 'tsup'
 
 export default defineConfig(options => ({
   entryPoints: {
+    alert: 'src/components/alert.tsx',
+    'alert-dialog': 'src/components/alert-dialog.tsx',
     accordion: 'src/components/accordion.tsx',
     button: 'src/components/button.tsx',
     tooltip: 'src/components/tooltip.tsx',

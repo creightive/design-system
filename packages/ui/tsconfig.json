@@ -16,6 +16,6 @@
       "@/*": ["src/*"]
     }
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx", "tailwind.config.ts"],
+  "include": ["."],
   "exclude": ["node_modules", "dist", "build"]
 }
