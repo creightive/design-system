@@ -36,6 +36,106 @@
       "import": "./dist/tooltip.mjs",
       "require": "./dist/tooltip.js"
     },
+    "./avatar": {
+      "types": "./src/components/avatar.tsx",
+      "import": "./dist/avatar.mjs",
+      "require": "./dist/avatar.js"
+    },
+    "./badge": {
+      "types": "./src/components/badge.tsx",
+      "import": "./dist/badge.mjs",
+      "require": "./dist/badge.js"
+    },
+    "./calendar": {
+      "types": "./src/components/calendar.tsx",
+      "import": "./dist/calendar.mjs",
+      "require": "./dist/calendar.js"
+    },
+    "./card": {
+      "types": "./src/components/card.tsx",
+      "import": "./dist/card.mjs",
+      "require": "./dist/card.js"
+    },
+    "./checkbox": {
+      "types": "./src/components/checkbox.tsx",
+      "import": "./dist/checkbox.mjs",
+      "require": "./dist/checkbox.js"
+    },
+    "./dialog": {
+      "types": "./src/components/dialog.tsx",
+      "import": "./dist/dialog.mjs",
+      "require": "./dist/dialog.js"
+    },
+    "./dropdown-menu": {
+      "types": "./src/components/dropdown-menu.tsx",
+      "import": "./dist/dropdown-menu.mjs",
+      "require": "./dist/dropdown-menu.js"
+    },
+    "./form": {
+      "types": "./src/components/form.tsx",
+      "import": "./dist/form.mjs",
+      "require": "./dist/form.js"
+    },
+    "./input": {
+      "types": "./src/components/input.tsx",
+      "import": "./dist/input.mjs",
+      "require": "./dist/input.js"
+    },
+    "./label": {
+      "types": "./src/components/label.tsx",
+      "import": "./dist/label.mjs",
+      "require": "./dist/label.js"
+    },
+    "./popover": {
+      "types": "./src/components/popover.tsx",
+      "import": "./dist/popover.mjs",
+      "require": "./dist/popover.js"
+    },
+    "./select": {
+      "types": "./src/components/select.tsx",
+      "import": "./dist/select.mjs",
+      "require": "./dist/select.js"
+    },
+    "./separator": {
+      "types": "./src/components/separator.tsx",
+      "import": "./dist/separator.mjs",
+      "require": "./dist/separator.js"
+    },
+    "./skeleton": {
+      "types": "./src/components/skeleton.tsx",
+      "import": "./dist/skeleton.mjs",
+      "require": "./dist/skeleton.js"
+    },
+    "./switch": {
+      "types": "./src/components/switch.tsx",
+      "import": "./dist/switch.mjs",
+      "require": "./dist/switch.js"
+    },
+    "./table": {
+      "types": "./src/components/table.tsx",
+      "import": "./dist/table.mjs",
+      "require": "./dist/table.js"
+    },
+    "./tabs": {
+      "types": "./src/components/tabs.tsx",
+      "import": "./dist/tabs.mjs",
+      "require": "./dist/tabs.js"
+    },
+    "./textarea": {
+      "types": "./src/components/textarea.tsx",
+      "import": "./dist/textarea.mjs",
+      "require": "./dist/textarea.js"
+    },
+    "./toggle": {
+      "types": "./src/components/toggle.tsx",
+      "import": "./dist/toggle.mjs",
+      "require": "./dist/toggle.js"
+    },
+    "./toggle-group": {
+      "types": "./src/components/toggle-group.tsx",
+      "import": "./dist/toggle-group.mjs",
+      "require": "./dist/toggle-group.js"
+    },
     "./lib/variants": {
       "types": "./src/lib/variants.ts",
       "import": "./dist/lib/variants.mjs",
